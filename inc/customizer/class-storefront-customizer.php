@@ -529,12 +529,13 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 				color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['header_link_color'], 50 ) . ';
 			}
 			
-			/* edited by trananhdung 
-			.main-navigation ul :hover, .secondary-navigation ul :hover{
+			/* edited by trananhdung */
+			.main-navigation ul li:hover, .secondary-navigation ul li:hover{
 				
 				background-color: ' . storefont_background_menu_hover() .';
 			}
 			
+			/*
 			.main-navigation ul li {
 				background-color: ' . storefont_background_menu_active($storefront_theme_mods['header_link_color'], 50) . ';
 			}

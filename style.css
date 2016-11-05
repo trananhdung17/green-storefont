@@ -4566,9 +4566,9 @@ button.menu-toggle:after {
         width: 115px;
     }
 
-    .main-navigation ul li:hover, .secondary-navigation ul li:hover{
-        background-color: #c7a112;
-    }
+    /*.main-navigation ul li:hover, .secondary-navigation ul li:hover{*/
+        /*background-color: #c7a112;*/
+    /*}*/
 
     .main-navigation ul li a, .secondary-navigation ul li a {
         display: block
