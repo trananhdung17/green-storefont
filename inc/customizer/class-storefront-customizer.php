@@ -530,7 +530,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			}
 			
 			/* edited by trananhdung */
-			.main-navigation ul li :hover, .secondary-navigation ul li :hover{
+			.main-navigation ul :hover, .secondary-navigation ul :hover{
 				
 				background-color: ' . storefont_background_menu_hover() .';
 			}
